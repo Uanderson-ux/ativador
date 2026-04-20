@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtivadorOffc - Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Banner de Urgência -->
+    <div class="urgency-banner">
+        🔥 OFERTA EXCLUSIVA: Sua licença expira em <span id="timer">15:00</span>. Aproveite agora por apenas R$ 45,00!
+    </div>
+
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Ativador<span>Offc</span></div>
+            <ul class="nav-links">
+                <li><a href="#features">Recursos</a></li>
+                <li><a href="#screenshots">Interface</a></li>
+                <li><a href="#pricing" class="btn-nav">Adquirir Agora</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>O jeito oficial e seguro de ativar seu <span>Windows e Office</span></h1>
+            <p>Garanta produtividade total com a ferramenta definitiva. Sem vírus, sem complicações, 100% vitalício.</p>
+            
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/L7JVC-1H1Ek?autoplay=1&mute=1&rel=0" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="hero-btns">
+                <a href="#pricing" class="btn-buy">Quero Ativar Agora</a>
+                <a href="#features" class="btn-secondary">Ver Recursos</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Características -->
+    <section id="features" class="features">
+        <div class="section-title">
+            <h2>Tecnologia de Ponta</h2>
+            <p>Desenvolvido para oferecer a melhor experiência em ativação.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="icon">⚡</div>
+                <h3>Ativação em Segundos</h3>
+                <p>Processo simplificado que garante o resultado em menos de 10 segundos.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🔓</div>
+                <h3>Acesso Vitalício</h3>
+                <p>Pague uma única vez e tenha acesso a todas as atualizações futuras.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🛡️</div>
+                <h3>100% Seguro</h3>
+                <p>Arquivos verificados e seguros, sem interferência de antivírus.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interface (Screenshots Lado a Lado) -->
+    <section id="screenshots" class="screenshots">
+        <div class="section-title">
+            <h2>Interface Intuitiva</h2>
+            <p>Minimize janelas, escolha sua versão e ative. Simples assim.</p>
+        </div>
+        <div class="screenshot-gallery">
+            <img src="cap1.png" alt="Interface 1">
+            <img src="cap2.png" alt="Interface 2">
+            <img src="cap3.png" alt="Interface 3">
+        </div>
+    </section>
+
+    <!-- Preços (Nova Seção) -->
+    <section id="pricing" class="pricing">
+        <div class="section-title">
+            <h2>Escolha o Plano Ideal</h2>
+        </div>
+        <div class="pricing-card">
+            <h3>Acesso Completo</h3>
+            <p>Windows 10/11 + Todos os Office</p>
+            <span class="price-old">De R$ 97,00</span>
+            <span class="price-new">R$ 45,00</span>
+            <p>Pagamento único, acesso para sempre.</p>
+            <br>
+            <a href="#" class="btn-buy" style="display: block;">ADQUIRIR ACESSO AGORA</a>
+            <p style="margin-top: 1.5rem; font-size: 0.8rem; opacity: 0.6;">💳 Cartão, Pix ou Boleto</p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 AtivadorOffc. Todos os direitos reservados.</p>
+            <p class="disclaimer">Suporte 24/7 disponível para clientes premium.</p>
+        </div>
+    </footer>
+
+    <!-- Contêiner de Notificações -->
+    <div id="notification-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
